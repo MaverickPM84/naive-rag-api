@@ -1,0 +1,11 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.36
+pydantic-settings==2.7.0
+numpy==2.2.0
+pytest==8.3.4
+httpx==0.28.1
+python-dotenv==1.0.1
+
+# Optional: only needed if you set EMBEDDING_MODEL=openai or LLM_MODEL=openai
+# openai==1.58.1
